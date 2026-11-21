@@ -1,0 +1,109 @@
+/* this is my color pallete ! https://coolors.co/3a3335-fe5f55-cbefb6 */
+body {
+	background-image: #ffffff;
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-image: linear-gradient(to bottom, #ffffff, #eeffe4);
+}
+p {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+ 	font-style: normal;
+	font-size: 1.5vw;
+}
+h2 {
+	font-family: "Fredoka", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+	color: #fe5f55;
+	font-size: 3vw;
+}
+header {
+	display: flex;
+ 	border-bottom: #fe5f55;
+	background-opacity: 20%;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	align-items: center;
+	width: 90vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	
+	border-width: 1vh;
+	border-bottom-style: solid;
+}
+#nombre {
+	width: 70%;
+}
+#detalles {
+	display: flex;
+	order: 1;
+	flex-direction: row;
+	gap: 5%;
+  	width: 100%;
+	color: #fe5f55 ;
+}
+#nombre_txt{
+	font-size: 7vw;
+}
+.header_section{
+	display: flex;
+	font-size: 2vw;
+}
+.header_section:hover {
+	color: CBEFB6;
+	transition: 0.5s;
+}
+.spicy-rice-regular {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fredoka-bold{
+	font-family: "Fredoka", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+	color: #fe5f55;
+}
+#whoamI{
+	display: flex;
+	/* temporary set while I make other sections, switch back when fixed! */
+	height: 60vh;
+	padding-left: 2.5vw;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 5%;
+	justify-content: flex-start ;
+
+}
+#icono_whoamI{
+	width: 100%;
+}
+#text_whoamI{
+	max-width: 65vw ;
+}
+#title_whoamI{
+	max-width: 20vw ;
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #CBEFB6;
+}
+
+::selection {
+  color: white;
+  background: #CBEFB6;
+}

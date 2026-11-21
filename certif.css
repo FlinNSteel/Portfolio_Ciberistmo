@@ -1,0 +1,23 @@
+#certif{
+	display: grid;
+	grid:
+' an an img img'
+' an an img img'
+;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	padding-top: 1.5vw;
+}
+
+#certif_announce{
+grid-area: an;
+}
+
+#certif_img{
+grid-area: img;
+}
+
+#certif_img:hover{
+transform: rotate(5deg) scale(1.1);
+transition: 0.5s;
+}

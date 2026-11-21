@@ -1,0 +1,48 @@
+#contacts{
+	display: grid;
+	grid: 'desc desc desc desc' 'list list img img' 'list list img img';
+	grid-gap: 1vw;
+	padding-left: 2.5vw;
+}
+contact_desc {
+ 	grid-area: desc;
+	max-width: 50vw;
+}
+#contact_list{
+	display: flex;
+	flex-direction: column;
+	gap: 1vw;
+	grid-area: list
+}
+
+#discord{
+	order: 1;
+	color: #cc33ff;
+}
+#gmail{
+	order: 2;
+	color: #339933;
+}
+#github{
+	order: 3;
+	color: #0066ff;
+}
+#contact_img{
+	width: 20vw;
+	height: 20vw;
+	grid-area: img;
+}
+.contact{
+	font-family: "Fredoka", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+	color: #fe5f55;
+	font-size: 2vw;
+}
+.contact:hover{
+	color: CBEFB6 !important;
+	transition: 0.5s;
+}

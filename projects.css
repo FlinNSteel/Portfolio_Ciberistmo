@@ -1,0 +1,36 @@
+#habi{
+	display: none;
+	padding-top: 2.5vw;
+	padding-left: 2.5vw;
+	flex-direction: row;
+	
+}
+#habilidades_title_txt{
+	flex-grow: 3;
+}
+#habilidades_container{
+	display: flex;
+	width: 100vh;
+}
+.habilidades_template{
+	display:grid;
+	grid-gap: 1vw;
+	max-width: 20vw;
+	height: 50vh;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	border-color: #CBEFB6;
+	border-width: 1vh;
+	border-style: solid;
+	border-radius: 10vh;
+	grid: ' t t i i '
+	' d d d d '
+	' d d d d ';
+}
+
+.habilidades_template_icon{
+	grid-area: i;
+}
+.habilidades_template_desc{
+	grid-area: d;
+}
